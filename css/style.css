@@ -39,6 +39,7 @@ section {
   margin-bottom: 60px;
 }
 
+
 .container {
   max-width: 1170px;
   margin: auto;
@@ -368,4 +369,24 @@ footer {
   .container-small {
     width: 95%;
   }
+  
+}
+
+.three-boxes {
+  display: flex;
+}
+
+.box {
+  width: 33.3%;
+  padding: 5px;
+  text-align: center;
+  height: auto;
+}
+
+.box i {
+  padding-bottom: 10px;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
 }
