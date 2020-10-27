@@ -2,153 +2,185 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moje portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💻Portfolio💾</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
 
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-    
 </head>
 
 <body>
 
-    <header class="main-header" id="top">
-        <h1 class="main-heading">Front End Developer</h1>
+  <header class="main-header" id="to-top">
+    <h1>JUNIOR FRONT END DEVELOPER</h1>
+    <hr>
+    <p>HTML<span class="dot">•</span>CSS<span class="dot">•</span>JavaScript<span class="dot">•</span>React.js</p>
+    <a href="#about" class="btn" id="find-out-more">FIND OUT MORE</a>
+  </header>
+
+  <nav class="nav-bar">
+    <ul class="nav-container">
+      <li><a href="#about" id='about-button'>About</a></li>
+      <li><a href="#portfolio" id='portfolio-button'>Portfolio</a></li>
+      <li><a href="#contact" id='contact-button'>Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <header class="section-header">
+        <h2>About Me</h2>
         <hr>
-        <p>HTML <span>•</span> CSS <span>•</span> JavaScript</p>
-        <a href="#about" class="btn">Dowiedz się więcej</a>
-    </header>
+      </header>
+      <img src="./img/about.png" alt="" class="about-img">
+      <div class="container-small">
+        <p>My name is Vitaly, I am learning to program. I have been working in gastronomy for twelve years, due to the
+          circumstances in the gastronomy business, I want to try myself in a new profession! Now I live in Warsaw.
+        </p>
+        <p>
+          I started studying front-end development in March 2020, I finished an intensive front-end bootcamp at Academy
+          108 in June 2020, and I'm not stopping there! I know I have a lot to learn and I believe it is best to learn
+          on the job, so I am looking for an entry-level position to grow in a new team.
+        </p>
+        <p>Below you can see some of my little projects. Feel free to take a look at my GitHub page. My free time I
+          spending cooking or riding bike!</p>
+      </div>
+      <a href="#portfolio" id="my-portfolio-button" class="btn">MY PORTFOLIO</a>
+    </div>
+  </section>
 
-    <nav class="main-nav">
-        <label for="drop-nav">Menu</label>
-        <input type="checkbox" id="drop-nav">
-        <ul class="main-menu">
-            <li class="menu-item"><a href="#about">O mnie</a></li>
-            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
-            <li class="menu-item"><a href="#contact">Kontakt</a></li>
-        </ul>
-    </nav>
+  <section id="portfolio">
+    <div class="container">
+      <header class="section-header">
+        <h2>PORTFOLIO</h2>
+        <hr>
+      </header>
+      <div class="portfolio-imgs-container">
+        <a href="https://hungry-goldberg-3fe06c.netlify.app/" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-1.jpg" alt="1">
+          <h3>STL Architects</h3>
+        </a>
+        <a href="https://serene-goodall-9adb4f.netlify.app" class="portfolio-item" target="_blank"><img
+            src="./img/portfolio/photo-2.jpg" alt="2">
+          <h3>Github Users Search</h3>
+        </a>
+        <a href="https://eager-hodgkin-41cb99.netlify.app/" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-3.jpg" alt="3">
+          <h3>Soho Hotel</h3>
+        </a>
+        <a href="https://optimistic-golick-8398bd.netlify.app" class="portfolio-item" target="_blank"><img
+            src="./img/portfolio/photo-4.jpg" alt="4">
+          <h3>Recipe Finder</h3>
+        </a>
+        <a href="https://jovial-pike-221bd9.netlify.app/" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-6.jpg" alt="5">
+          <h3>Task List</h3>
+        </a>
+        <a href="https://focused-franklin-f79c21.netlify.app" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-4.jpg" alt="6">
+          <h3>Loan Calculator</h3>
+        </a>
+        <a href="https://trusting-ride-d88a47.netlify.app" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-7.jpg" alt="7">
+          <h3>Photography</h3>
+        </a>
+        <a href="https://relaxed-minsky-f1e31b.netlify.app" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-8.jpg" alt="8">
+          <h3>My Paintings</h3>
+        </a>
+        <a href="https://relaxed-ptolemy-85a112.netlify.app/" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-9.jpg" alt="9">
+          <h3>Form Validator</h3>
+        </a>
+        <a href="https://ecstatic-ramanujan-cd1350.netlify.app" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-10.jpg" alt="10">
+          <h3>Hangman Game</h3>
+        </a>
+        <a href="https://youthful-stonebraker-7b5599.netlify.app" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-11.jpg" alt="11">
+          <h3>Cupcake Bakery</h3>
+        </a>
+        <a href="https://vibrant-kilby-e10f39.netlify.app/" target="_blank" class="portfolio-item"><img
+            src="./img/portfolio/photo-12.jpg" alt="12">
+          <h3>Seat Booking</h3>
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <header class="section-header">
-                <h2>O mnie</h2>
-                <hr>
-            </header>
-            
-            <img src="img/about.jpg" alt="Jane Doo" class="about-image">
+  <section id="skills" class="container-small">
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:80%">HTML</div>
+    </div><br>
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:70%">CSS</div>
+    </div><br>
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:50%">JavaScript</div>
+    </div><br>
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:60%">GIT</div>
+    </div><br>
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:30%">JQuery</div>
+    </div><br>
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:30%">Bootstrap</div>
+    </div><br>
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:30%">SASS</div>
+    </div><br>
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:20%">WordPress</div>
+    </div><br>
+    <div class="w3-light-grey w3-round-large">
+      <div class="w3-container pink-bar w3-round-large" style="width:60%">ReactJS</div>
+    </div><br>
+  </section>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, assumenda? Placeat dolores cumque eaque cum impedit accusamus dignissimos voluptatibus aperiam repellendus doloribus laborum consequatur, natus aspernatur quisquam vel, quasi repudiandae. Quasi corrupti laborum, sint libero dolore eos asperiores mollitia nesciunt qui cupiditate labore, voluptas eveniet. Mollitia fuga provident repellendus officia.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatem obcaecati animi! Voluptatem, laudantium soluta unde vel delectus voluptas deleniti esse error consectetur ipsa accusamus optio tempore, explicabo corrupti earum?</p>
+  <section id="contact">
+    <div class="container">
+      <header class="section-header">
+        <h2>Contact</h2>
+        <hr>
+      </header>
+      <div class="container-small">
+        <form action=POST class="container-input" action="https://formspree.io/xjvaelak">
+          <input class="contact-input" type="text" id="name" name="name" placeholder="Name">
+          <input class="contact-input" type="email" name="email" placeholder="Email">
+          <textarea class="contact-textarea" name="message" id="message" placeholder="Message"></textarea>
+          <input type="submit" class="btn btn-send" value="SEND MESSAGE"></input>
+        </form>
+      </div>
+      <div class="social-media container-small">
+        <a href="https://www.linkedin.com/in/vitalii-riabov-aa41351b3/" target="_blank"><i
+            class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://github.com/vit20" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100001489676084&locale=pl_PL" target="_blank"><i
+            class="fab fa-facebook-square fa-3x"></i></a>
+      </div>
+      <a href="#to-top" class="to-top"><i class="fas fa-arrow-up fa-1.5x"></i></a>
+    </div>
+  </section>
 
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; Akademia 108 - Szkoła Programowania</p>
+    </div>
+  </footer>
 
-            <a href="#portfolio" class="btn">Moje portfolio</a>
-
-        </div>
-    </section>
-
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <header class="section-header">
-                <h2>Portfolio</h2>
-                <hr>
-            </header>
-
-            <div class="portfolio-wrapper">
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-1.jpg" alt="Portfolio item 1">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-2.jpg" alt="Portfolio item 2">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-3.jpg" alt="Portfolio item 3">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-4.jpg" alt="Portfolio item 4">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-5.jpg" alt="Portfolio item 5">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-6.jpg" alt="Portfolio item 6">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-7.jpg" alt="Portfolio item 7">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-8.jpg" alt="Portfolio item 8">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-9.jpg" alt="Portfolio item 9">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-10.jpg" alt="Portfolio item 10">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-11.jpg" alt="Portfolio item 11">
-                    <h3>Projekt</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-12.jpg" alt="Portfolio item 12">
-                    <h3>Projekt</h3>
-                </a>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <header class="section-header">
-                <h2>Kontakt</h2>
-                <hr>
-            </header>
-
-            <form>
-                <input type="text" placeholder="Imię">
-                <input type="email" placeholder="E-mail">
-                <textarea placeholder="Wiadomość"></textarea>
-                <input type="submit" class="btn">
-            </form>
-
-            <div class="social-links">
-                <a href="" class="social-link"><i class="fab fa-facebook-square"></i></a>
-                <a href="" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="" class="social-link"><i class="fab fa-instagram"></i></a>
-                <a href="" class="social-link"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="main-footer">
-        <div class="container">
-            <p>Copyright © Akademia 108 - Szkoła Programowania</p>
-        </div>
-    </footer>
-
-    <a href="#top" class="to-top"><i class="fas fa-arrow-up"></i></a>
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/6f73bfd26f.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a47e3e9825.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
