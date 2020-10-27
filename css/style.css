@@ -10,7 +10,7 @@ body {
 hr {
   width: 70px;
   height: 1px;
-  background-color:  #ecb7bf;
+  background-color:  #72ccf0;
   border: 0;
   margin: 0 auto;
 }
@@ -18,7 +18,7 @@ hr {
 .btn {
   text-decoration: none;
   padding: 10px;
-  border: 1px solid #ecb7bf;
+  border: 1px solid #72ccf0;
   color: #333;
   transition: all .3s;
   cursor: pointer;
@@ -28,7 +28,7 @@ hr {
 
 .btn:hover {
   color: #fff;
-  background-color: #ecb7bf;
+  background-color: #72ccf0;
 }
 
 section {
@@ -70,7 +70,7 @@ section {
 }
 
 h1 {
-  color: #ecb7bf;
+  color: #72ccf0;
   font-weight: 700;
   font-size: 4.2em;
   margin-bottom: 0px;
@@ -94,7 +94,7 @@ header p {
 }
 
 span.dot {
-  color: #ecb7bf;
+  color: #72ccf0;
   font-size: 900;
   margin-left: 5px;
   margin-right: 5px;
@@ -111,7 +111,7 @@ span.dot {
 
 .nav-bar ul.nav-container {
   list-style: none;
-  background-color: #ecb7bf;
+  background-color:#72ccf0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +129,7 @@ ul.nav-container li a {
 
 ul.nav-container li a:hover {
   text-decoration: none;
-  color: #ecb7bf;
+  color: #72ccf0;
   background-color: #fff;
   padding: 15px;
 }
@@ -183,7 +183,7 @@ ul.nav-container li {
 
 .portfolio-imgs-container .portfolio-item h3 {
   position: absolute;
-  background-color: rgba(236, 183, 191, .8);
+  background-color: #72ccf075;
   top: 0;
   left: 0;
   width: 100%;
@@ -206,7 +206,7 @@ ul.nav-container li {
 /* Skills bars */
 
 .pink-bar {
-  background-color: #ecb7bf;
+  background-color: #72ccf0;
   color: #fff;
 }
 
@@ -239,7 +239,7 @@ margin: 10px 0;
 
 .contact-input:focus, 
 .contact-textarea:focus {
-  outline-color: #ecb7bf;
+  outline-color: #72ccf0;
 }
 .btn-send {
   margin: auto;
@@ -254,7 +254,7 @@ margin: 10px 0;
 }
 
 .social-media a {
-  color: #ecb7bf;
+  color: #72ccf0;
   transition: all .3s;
   padding: 20px;
 }
@@ -267,8 +267,8 @@ margin: 10px 0;
 
 .to-top {
   display: block;
-  color: #ecb7bf;
-  border: #ecb7bf 1px solid;
+  color: #72ccf0;
+  border: #72ccf0 1px solid;
   width: 40px;
   height: 40px;
 }
@@ -279,9 +279,9 @@ margin: 10px 0;
   bottom: 30px;
   right: 30px;
   color:#fff;
-  background-color: rgb(236, 183, 191);
+  background-color: #72ccf0;
   line-height: 50px;
-  border: 1px solid #ecb7bf;
+  border: 1px solid #72ccf0;
   text-align: center;
   height: 54px;
   width: 54px;
@@ -289,7 +289,7 @@ margin: 10px 0;
 }
 
 .to-top:hover {
-  color: #ecb7bf;
+  color: #72ccf0;
   background-color: #fff;
 }
 
