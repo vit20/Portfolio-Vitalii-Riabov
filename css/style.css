@@ -294,14 +294,7 @@ margin: 10px 0;
   background-color: #fff;
 }
 
-/* Footer */
 
-footer {
-  background-color: #f2f1ed;
-  padding: 10px 0;
-  text-align: center;
-  color: #777;
-}
 
 /* Responsive */
 
@@ -377,14 +370,14 @@ footer {
 }
 
 .box {
-  width: 33.3%;
-  padding: 5px;
+  width: 50%;
   text-align: center;
   height: auto;
+  font-size: 15px;
 }
 
 .box i {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .bg-dark {
   background: #333;
