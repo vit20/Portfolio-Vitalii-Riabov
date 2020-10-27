@@ -309,6 +309,9 @@ margin: 10px 0;
  .container-small {
    width: 80%;
  }
+ .three-boxes {
+  display: flex;
+}
 }
 
 @media (max-width: 775px) {
@@ -370,14 +373,14 @@ margin: 10px 0;
 }
 
 .box {
-  width: 50%;
+  width:50%;
   text-align: center;
   height: auto;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .box i {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .bg-dark {
   background: #333;
