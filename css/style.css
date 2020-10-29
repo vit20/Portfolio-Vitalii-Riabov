@@ -168,6 +168,8 @@ ul.nav-container li {
 .portfolio-imgs-container {
   display: inline-block;
   flex-wrap:nowrap ;
+  margin-left: 150px;
+  
 }
 
 .portfolio-imgs-container .portfolio-item {
