@@ -168,7 +168,7 @@ ul.nav-container li {
 .portfolio-imgs-container {
   display: inline-block;
   flex-wrap:nowrap ;
-  margin-left: 150px;
+  margin-left: 20px;
   
 }
 
@@ -296,7 +296,7 @@ margin: 10px 0;
  }
  .portfolio-imgs-container {
    width: 90%;
-   margin-left: 150px;
+   margin: 15px;
  }
  .container-small {
    width: 80%;
