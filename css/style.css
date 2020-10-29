@@ -296,7 +296,7 @@ margin: 10px 0;
  }
  .portfolio-imgs-container {
    width: 90%;
-   margin: auto;
+   margin-left: 150px;
  }
  .container-small {
    width: 80%;
