@@ -159,41 +159,50 @@ ul.nav-container li {
    line-height: 1.4em;
  }
 
+
+
+ .row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
 /* Portfolio */
 
 #portfolio {
   background-color: #f2f1ed;
 }
-
-.portfolio-imgs-container {
-  display: inline-block;
-  flex-wrap:nowrap ;
-  margin-left: 20px;
-  
-}
-
-.portfolio-imgs-container .portfolio-item {
-  flex-basis: 25%;
-  height: 200px;
-  position: relative;
-  text-decoration: none;
-}
-
-.portfolio-imgs-container .portfolio-item img {
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-}
-h6{
-  color: rgb(75, 102, 221);
-  
+h3{
+  text-align: center
 }
 
 
 
-.portfolio-imgs-container .portfolio-item h6:hover {
-  opacity: 1;
-}
+
+
 
 
 /* Skills bars */
@@ -283,7 +292,22 @@ margin: 10px 0;
 
 .to-top:hover {
   color: #72ccf0;
-  background-color: #fff;
+  background-color: #72ccf0;
+}
+/* Style buttons */
+.btn {
+  background-color: white;
+  border: none;
+  color: #72ccf0;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color:#72ccf0;
 }
 
 
@@ -358,6 +382,19 @@ margin: 10px 0;
     width: 95%;
   }
   
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+      width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
 }
 
 .three-boxes {
